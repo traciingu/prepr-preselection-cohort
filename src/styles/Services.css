@@ -1,0 +1,32 @@
+.services {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 55vh;
+    margin: 50px 0px;
+    
+}
+
+.service-features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 50px 15% 0px 15%;
+    height: 70%;
+}
+
+.services-title {
+font-size: 2rem;
+padding: 0px 15%;
+text-align: center;
+}
+
+.services-title2{
+    color: #2f28ce;
+}
+
+.services-title3{
+    font-size: 1.5rem;
+    color: #4d586c;
+}
+

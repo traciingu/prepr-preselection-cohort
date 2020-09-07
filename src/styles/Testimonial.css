@@ -1,0 +1,19 @@
+.testimonial{
+    background-color: white;
+}
+
+.testimonial-review, .testimonial-title {
+    color: #707392;
+}
+
+.testimonial-image-container {
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+}
+
+.testimonial-image {
+    height: 10vh;
+    
+}

@@ -1,0 +1,31 @@
+/* 3a33cf */
+.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    min-height: 100px;
+    padding: 30px 60px;
+    font-size: 0.8rem;
+}
+
+.navbar li {
+    padding: 0px 20px;
+}
+
+.navbar li:first-child {
+    margin-right: auto;
+    border: 3px solid #3a33cf;
+    color: #3a33cf;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+
+.navbar li:last-child {
+    color: #3a33cf;
+}

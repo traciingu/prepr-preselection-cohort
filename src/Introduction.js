@@ -1,9 +1,10 @@
 import React from 'react';
+import './styles/Introduction.css';
 
 const Introduction = () => {
     return (
         <div className="intro">
-                <img src={require('./images/blue-person-silhouette.png')} />
+                <img src={require('./images/blue-person-silhouette.png')} className="intro-image"/>
                 <div className="intro-title"><h4>Hello! My Name is <span style={{ color: "#3328ce" }}>Tracy Nguyen</span></h4></div>
                 <div className="intro-paragraph">
                     <p>The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime you

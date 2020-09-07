@@ -1,0 +1,38 @@
+.intro {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    height: 65vh;
+    min-height: 300px;
+    width: 100%;
+    background-color: #f3f7fa;
+    padding: 9vh 10%;
+}
+
+
+.intro-image {
+    height: 100%;
+    padding-right: 5%;
+}
+
+.intro-title {
+    font-size: 1.5rem;
+}
+
+.intro-paragraph > * {
+    color: #8d919c;
+    
+    
+}
+
+.intro-paragraph {
+    width: 100%;
+    /* overflow: hidden; */
+    white-space: normal;
+    word-break: break-all;
+}
+
+.intro-quote, .intro-conclusion {
+    font-style: italic;
+    font-weight: bold;
+}

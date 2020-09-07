@@ -21,15 +21,6 @@
 
 .intro-paragraph > * {
     color: #8d919c;
-    
-    
-}
-
-.intro-paragraph {
-    width: 100%;
-    /* overflow: hidden; */
-    white-space: normal;
-    word-break: break-all;
 }
 
 .intro-quote, .intro-conclusion {

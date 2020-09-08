@@ -1,19 +1,51 @@
 .testimonial{
     background-color: white;
+    width: 450px;
+    height: 100%;
+    padding: 20px 0px 0px 20px;
+}
+
+.testimonial > *:not(.testimonial-quote){
+    padding-left: 50px;
 }
 
 .testimonial-review, .testimonial-title {
     color: #707392;
 }
 
+.testimonial-review {
+    font-style: italic;
+}
+
+.testimonial-person-info{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 35% 30%;
+    padding-top: 5%;
+}
+
+.testimonial-title {
+    font-size: 0.8rem;
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+
+.testimonial-name {
+    font-weight: 700;
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
 .testimonial-image-container {
-    border-radius: 100px;
+    border-radius: 100%;
     height: 50px;
     width: 50px;
     overflow: hidden;
+    float: right;
 }
 
 .testimonial-image {
-    height: 10vh;
-    
+    height: 150%;
+    grid-column: 2/2;
+    grid-row: 1/-1;
 }

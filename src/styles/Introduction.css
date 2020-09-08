@@ -2,17 +2,16 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
-    height: 65vh;
-    min-height: 300px;
+    height: 350px;
     width: 100%;
     background-color: #f3f7fa;
-    padding: 9vh 10%;
+    padding: 50px;
 }
 
 
 .intro-image {
     height: 100%;
-    padding-right: 5%;
+    padding-right: 50px;
 }
 
 .intro-title {

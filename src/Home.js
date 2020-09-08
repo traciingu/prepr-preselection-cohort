@@ -6,7 +6,7 @@ import './styles/Home.css';
 import './styles/Header.css';
 import './styles/Introduction.css';
 import './styles/Services.css';
-import './styles/Testimonial.css';
+import './styles/TestimonialSection.css';
 import testimonials from './testimonials.json';
 
 
@@ -69,8 +69,8 @@ const Home = () => {
             </div>
 
             <div className="testimonial-section">
-                <h3>See what Jenny, Giga, and Davis are saying about us</h3>
-                {testimonials.map((testimonial, index) => <Testimonial testimonial={testimonial} key={index} />)}
+                <h3 className="testimonial-section-title">See what Jenny, Giga, and Davis are saying about us</h3>
+                <div className="testimonial-container">{testimonials.map((testimonial, index) => <Testimonial testimonial={testimonial} key={index} />)}</div>
             </div>
         </div>
     );

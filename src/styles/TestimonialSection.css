@@ -1,0 +1,24 @@
+.testimonial-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #3831cf;
+    height: 400px;
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.testimonial-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 62%;
+}
+
+.testimonial-section-title {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 35px;
+}

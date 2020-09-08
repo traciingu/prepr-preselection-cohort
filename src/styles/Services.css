@@ -2,9 +2,8 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    height: 55vh;
-    margin: 50px 0px;
-    
+    height: 475px;
+    margin: 15px 0px;
 }
 
 .service-features-container {
@@ -12,13 +11,13 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     padding: 50px 15% 0px 15%;
-    height: 70%;
+    height: 300px;
 }
 
 .services-title {
 font-size: 2rem;
-padding: 0px 15%;
 text-align: center;
+margin-top: 50px;
 }
 
 .services-title2{
